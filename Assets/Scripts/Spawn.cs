@@ -1,25 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
     [SerializeField] Transform[] a;
-    [SerializeField] GameObject s;
+    [SerializeField] GameObject[] s;
+    [SerializeField] float timeBetweenSpawn;
     
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Dothis", 1, .5f);
+        InvokeRepeating("SpawnCell", 1, timeBetweenSpawn);
     }
 
-    void Dothis()
+    void SpawnCell()
     {
-        Instantiate(a[4], transform.position, Quaternion.identity);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        Instantiate(s[Random.Range(0, s.Length)], a[Random.Range(0, a.Length)].position, Quaternion.identity);
     }
 }
