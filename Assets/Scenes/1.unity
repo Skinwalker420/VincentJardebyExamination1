@@ -208,6 +208,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &17381365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,7 +346,7 @@ Transform:
   m_GameObject: {fileID: 17381359}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.537792, y: 21.175144, z: 0.04971984}
+  m_LocalPosition: {x: -19.9, y: 12.369998, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -555,6 +558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &84480802
 Rigidbody2D:
   serializedVersion: 4
@@ -570,7 +576,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -678,7 +684,7 @@ Transform:
   m_GameObject: {fileID: 84480799}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.577793, y: 31.565147, z: 0.04971984}
+  m_LocalPosition: {x: 2.0599995, y: 22.760002, z: 0.04971984}
   m_LocalScale: {x: 1.6536, y: 1.6536, z: 3.3072}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -756,6 +762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &141049484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,7 +900,7 @@ Transform:
   m_GameObject: {fileID: 141049478}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3922067, y: 10.375146, z: 0.04971984}
+  m_LocalPosition: {x: 11.029999, y: 1.5699997, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1044,7 +1053,7 @@ Transform:
   m_GameObject: {fileID: 192676208}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.362207, y: 19.005146, z: 0.04971984}
+  m_LocalPosition: {x: 17, y: 10.2, z: 0.04971984}
   m_LocalScale: {x: 3.7452, y: 3.7452, z: 3.7452}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1074,6 +1083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &192676215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1464,7 +1476,7 @@ Transform:
   m_GameObject: {fileID: 225840919}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.917793, y: 12.585146, z: 0.04971984}
+  m_LocalPosition: {x: -18.28, y: 3.7799997, z: 0.04971984}
   m_LocalScale: {x: 0.2, y: 0.2, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1482,6 +1494,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &225840925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1641,6 +1656,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &293798891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1776,7 +1794,7 @@ Transform:
   m_GameObject: {fileID: 293798885}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.9977932, y: 19.295147, z: 0.04971984}
+  m_LocalPosition: {x: 2.6399994, y: 10.490001, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1867,6 +1885,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &342574966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2002,7 +2023,7 @@ Transform:
   m_GameObject: {fileID: 342574960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.107794, y: 20.185146, z: 0.04971984}
+  m_LocalPosition: {x: -1.4700012, y: 11.38, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2041,6 +2062,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &345231388
 Rigidbody2D:
   serializedVersion: 4
@@ -2056,7 +2080,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2164,7 +2188,7 @@ Transform:
   m_GameObject: {fileID: 345231386}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.387793, y: -1.4248543, z: 0.04971984}
+  m_LocalPosition: {x: -7.75, y: -10.2300005, z: 0.04971984}
   m_LocalScale: {x: 2.1133757, y: 2.1133757, z: 2.1133757}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2259,6 +2283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &436960785
 Rigidbody2D:
   serializedVersion: 4
@@ -2382,7 +2409,7 @@ Transform:
   m_GameObject: {fileID: 436960782}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.5520035, w: 0.8338418}
-  m_LocalPosition: {x: 1.9622068, y: 6.665146, z: 0.04971984}
+  m_LocalPosition: {x: 8.599999, y: -2.1400003, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2445,6 +2472,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &441978235
 Rigidbody2D:
   serializedVersion: 4
@@ -2568,7 +2598,7 @@ Transform:
   m_GameObject: {fileID: 441978232}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9877932, y: -3.1748543, z: 0.04971984}
+  m_LocalPosition: {x: 4.6499996, y: -11.9800005, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2599,7 +2629,7 @@ Transform:
   m_GameObject: {fileID: 473442869}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.8977933, y: -10.875146, z: -0.04971984}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2704,6 +2734,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &484116255
 Rigidbody2D:
   serializedVersion: 4
@@ -2827,7 +2860,7 @@ Transform:
   m_GameObject: {fileID: 484116252}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.907793, y: 3.3051457, z: 0.04971984}
+  m_LocalPosition: {x: -8.27, y: -5.5000005, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2891,6 +2924,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &511583716
 Rigidbody2D:
   serializedVersion: 4
@@ -3014,7 +3050,7 @@ Transform:
   m_GameObject: {fileID: 511583712}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.257793, y: 2.9051461, z: 0.04971984}
+  m_LocalPosition: {x: -15.620001, y: -5.9, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3070,7 +3106,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.003921569, g: 0.10588236, b: 0.16470589, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3095,7 +3131,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 20.4
+  orthographic size: 30
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3434,6 +3470,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &603893312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3569,7 +3608,7 @@ Transform:
   m_GameObject: {fileID: 603893306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7777934, y: 16.385147, z: 0.04971984}
+  m_LocalPosition: {x: -0.14000082, y: 7.580001, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3608,6 +3647,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &681446246
 Rigidbody2D:
   serializedVersion: 4
@@ -3731,7 +3773,7 @@ Transform:
   m_GameObject: {fileID: 681446244}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.43297607, w: 0.9014055}
-  m_LocalPosition: {x: -2.9777932, y: -8.504853, z: 0.04971984}
+  m_LocalPosition: {x: 3.6599994, y: -17.31, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3821,6 +3863,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &727692705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3956,7 +4001,7 @@ Transform:
   m_GameObject: {fileID: 727692700}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.4622073, y: 28.575146, z: 0.04971984}
+  m_LocalPosition: {x: 12.1, y: 19.77, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3976,7 +4021,7 @@ GameObject:
   - component: {fileID: 728026121}
   - component: {fileID: 728026120}
   m_Layer: 0
-  m_Name: Random Circle
+  m_Name: Map Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4503,6 +4548,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &782778220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4638,7 +4686,7 @@ Transform:
   m_GameObject: {fileID: 782778215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9177933, y: 27.585144, z: 0.04971984}
+  m_LocalPosition: {x: 4.7199993, y: 18.779999, z: 0.04971984}
   m_LocalScale: {x: 2.804668, y: 2.804668, z: 2.804668}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4689,6 +4737,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &798777284
 Rigidbody2D:
   serializedVersion: 4
@@ -4812,7 +4863,7 @@ Transform:
   m_GameObject: {fileID: 798777281}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.162207, y: 16.105146, z: 0.04971984}
+  m_LocalPosition: {x: 20.8, y: 7.3, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4903,6 +4954,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &811985209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5038,7 +5092,7 @@ Transform:
   m_GameObject: {fileID: 811985203}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.957792, y: 15.265146, z: 0.04971984}
+  m_LocalPosition: {x: -16.32, y: 6.46, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5116,6 +5170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &849515762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5251,7 +5308,7 @@ Transform:
   m_GameObject: {fileID: 849515757}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.472208, y: 6.655146, z: 0.04971984}
+  m_LocalPosition: {x: 19.11, y: -2.15, z: 0.04971984}
   m_LocalScale: {x: 3.7452, y: 3.7452, z: 3.7452}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5302,6 +5359,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &863581578
 Rigidbody2D:
   serializedVersion: 4
@@ -5425,7 +5485,7 @@ Transform:
   m_GameObject: {fileID: 863581575}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.387793, y: 29.315147, z: 0.04971984}
+  m_LocalPosition: {x: -3.75, y: 20.510002, z: 0.04971984}
   m_LocalScale: {x: 1.9288499, y: 1.9288499, z: 3.8576999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5636,6 +5696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1081383439
 Rigidbody2D:
   serializedVersion: 4
@@ -5759,7 +5822,7 @@ Transform:
   m_GameObject: {fileID: 1081383436}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.417793, y: 30.475147, z: 0.04971984}
+  m_LocalPosition: {x: -9.780001, y: 21.670002, z: 0.04971984}
   m_LocalScale: {x: 1.5, y: 1.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5810,6 +5873,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1095424508
 Rigidbody2D:
   serializedVersion: 4
@@ -5933,7 +5999,7 @@ Transform:
   m_GameObject: {fileID: 1095424505}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5622067, y: 1.9051456, z: 0.04971984}
+  m_LocalPosition: {x: 14.199999, y: -6.9000006, z: 0.04971984}
   m_LocalScale: {x: 1.5, y: 1.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6194,6 +6260,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1169500207
 Rigidbody2D:
   serializedVersion: 4
@@ -6317,7 +6386,7 @@ Transform:
   m_GameObject: {fileID: 1169500204}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.537792, y: 8.235146, z: 0.04971984}
+  m_LocalPosition: {x: -19.9, y: -0.57000065, z: 0.04971984}
   m_LocalScale: {x: 1.8180735, y: 1.8180735, z: 1.8180735}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6369,6 +6438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1174405030
 Rigidbody2D:
   serializedVersion: 4
@@ -6492,7 +6564,7 @@ Transform:
   m_GameObject: {fileID: 1174405027}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3422065, y: -5.7148542, z: 0.04971984}
+  m_LocalPosition: {x: 9.98, y: -14.52, z: 0.04971984}
   m_LocalScale: {x: 2.49516, y: 2.49516, z: 2.49516}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6595,6 +6667,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &1182485134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6730,7 +6805,7 @@ Transform:
   m_GameObject: {fileID: 1182485128}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.337793, y: 10.115147, z: 0.04971984}
+  m_LocalPosition: {x: -5.700001, y: 1.3100004, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6812,6 +6887,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1248604677
 Rigidbody2D:
   serializedVersion: 4
@@ -6935,7 +7013,7 @@ Transform:
   m_GameObject: {fileID: 1248604674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.907793, y: 14.855146, z: 0.04971984}
+  m_LocalPosition: {x: -4.2700005, y: 6.05, z: 0.04971984}
   m_LocalScale: {x: 1.975468, y: 1.975468, z: 1.975468}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6986,6 +7064,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1255005286
 Rigidbody2D:
   serializedVersion: 4
@@ -7001,7 +7082,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7109,7 +7190,7 @@ Transform:
   m_GameObject: {fileID: 1255005283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9122071, y: 27.055145, z: 0.04971984}
+  m_LocalPosition: {x: 9.549999, y: 18.25, z: 0.04971984}
   m_LocalScale: {x: 1.5, y: 1.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7204,6 +7285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1389892785
 Rigidbody2D:
   serializedVersion: 4
@@ -7327,7 +7411,7 @@ Transform:
   m_GameObject: {fileID: 1389892782}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.817793, y: 25.455147, z: 0.04971984}
+  m_LocalPosition: {x: -12.18, y: 16.650002, z: 0.04971984}
   m_LocalScale: {x: 1.5, y: 1.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7405,6 +7489,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &1439283517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7540,7 +7627,7 @@ Transform:
   m_GameObject: {fileID: 1439283512}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.9677925, y: 29.565147, z: 0.04971984}
+  m_LocalPosition: {x: -6.33, y: 20.760002, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7618,6 +7705,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &1481749147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7753,7 +7843,7 @@ Transform:
   m_GameObject: {fileID: 1481749142}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.8777933, y: 19.395145, z: 0.04971984}
+  m_LocalPosition: {x: 3.7599993, y: 10.589999, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7804,6 +7894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1496993537
 Rigidbody2D:
   serializedVersion: 4
@@ -7927,7 +8020,7 @@ Transform:
   m_GameObject: {fileID: 1496993534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.9984408, w: 0.055821486}
-  m_LocalPosition: {x: 7.1822066, y: 15.085146, z: 0.04971984}
+  m_LocalPosition: {x: 13.82, y: 6.2799997, z: 0.04971984}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7966,6 +8059,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1525101015
 Rigidbody2D:
   serializedVersion: 4
@@ -8089,7 +8185,7 @@ Transform:
   m_GameObject: {fileID: 1525101013}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.767794, y: -5.194854, z: 0.04971984}
+  m_LocalPosition: {x: -4.130001, y: -14, z: 0.04971984}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8193,6 +8289,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &1559134836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8328,7 +8427,7 @@ Transform:
   m_GameObject: {fileID: 1559134830}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.1777935, y: 1.9851456, z: 0.04971984}
+  m_LocalPosition: {x: -2.540001, y: -6.8200006, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8431,6 +8530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &1594202291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8566,7 +8668,7 @@ Transform:
   m_GameObject: {fileID: 1594202285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.117794, y: 7.205147, z: 0.04971984}
+  m_LocalPosition: {x: -8.480001, y: -1.5999994, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8617,6 +8719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1601924538
 Rigidbody2D:
   serializedVersion: 4
@@ -8740,7 +8845,7 @@ Transform:
   m_GameObject: {fileID: 1601924535}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6022067, y: 31.415146, z: 0.04971984}
+  m_LocalPosition: {x: 8.24, y: 22.61, z: 0.04971984}
   m_LocalScale: {x: 1.5, y: 1.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8791,6 +8896,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1612623200
 Rigidbody2D:
   serializedVersion: 4
@@ -8914,7 +9022,7 @@ Transform:
   m_GameObject: {fileID: 1612623197}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.94220686, y: 12.455146, z: 0.04971984}
+  m_LocalPosition: {x: 7.5799994, y: 3.6499996, z: 0.04971984}
   m_LocalScale: {x: 2.0046866, y: 2.0046866, z: 2.0046866}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8965,6 +9073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1628652438
 Rigidbody2D:
   serializedVersion: 4
@@ -9088,7 +9199,7 @@ Transform:
   m_GameObject: {fileID: 1628652435}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.967793, y: 8.405146, z: 0.04971984}
+  m_LocalPosition: {x: -11.33, y: -0.40000057, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9166,6 +9277,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &1633126357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9301,7 +9415,7 @@ Transform:
   m_GameObject: {fileID: 1633126352}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.552206, y: 20.255146, z: 0.04971984}
+  m_LocalPosition: {x: 16.189999, y: 11.45, z: 0.04971984}
   m_LocalScale: {x: 3.7452, y: 3.7452, z: 3.7452}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9352,6 +9466,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1635449061
 Rigidbody2D:
   serializedVersion: 4
@@ -9475,7 +9592,7 @@ Transform:
   m_GameObject: {fileID: 1635449058}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.707794, y: -4.1048536, z: 0.04971984}
+  m_LocalPosition: {x: -13.070002, y: -12.91, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9566,6 +9683,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!114 &1646637920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9701,7 +9821,7 @@ Transform:
   m_GameObject: {fileID: 1646637914}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.447794, y: 11.005146, z: 0.04971984}
+  m_LocalPosition: {x: -9.810001, y: 2.1999998, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9752,6 +9872,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1671735559
 Rigidbody2D:
   serializedVersion: 4
@@ -9875,7 +9998,7 @@ Transform:
   m_GameObject: {fileID: 1671735556}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.172207, y: -2.2948542, z: 0.04971984}
+  m_LocalPosition: {x: 16.81, y: -11.1, z: 0.04971984}
   m_LocalScale: {x: 2.49516, y: 2.49516, z: 2.49516}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9957,6 +10080,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1697483364
 Rigidbody2D:
   serializedVersion: 4
@@ -10080,7 +10206,7 @@ Transform:
   m_GameObject: {fileID: 1697483361}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1522069, y: 22.625145, z: 0.04971984}
+  m_LocalPosition: {x: 6.7899995, y: 13.819999, z: 0.04971984}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10131,6 +10257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1712727066
 Rigidbody2D:
   serializedVersion: 4
@@ -10254,7 +10383,7 @@ Transform:
   m_GameObject: {fileID: 1712727063}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.867793, y: 4.745146, z: 0.04971984}
+  m_LocalPosition: {x: 1.7699995, y: -4.0600004, z: 0.04971984}
   m_LocalScale: {x: 1.5, y: 1.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10305,6 +10434,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1870496208
 Rigidbody2D:
   serializedVersion: 4
@@ -10428,7 +10560,7 @@ Transform:
   m_GameObject: {fileID: 1870496205}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.402206, y: 12.545146, z: 0.04971984}
+  m_LocalPosition: {x: 18.039999, y: 3.7399998, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10615,7 +10747,7 @@ Transform:
   m_GameObject: {fileID: 1887329116}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.207792, y: 17.375145, z: 0.04971984}
+  m_LocalPosition: {x: -18.57, y: 8.569999, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10666,6 +10798,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1897283398
 Rigidbody2D:
   serializedVersion: 4
@@ -10789,7 +10924,7 @@ Transform:
   m_GameObject: {fileID: 1897283395}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.617794, y: 18.415146, z: 0.04971984}
+  m_LocalPosition: {x: -7.9800014, y: 9.61, z: 0.04971984}
   m_LocalScale: {x: 0.973836, y: 0.973836, z: 0.973836}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10871,6 +11006,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1951299060
 Rigidbody2D:
   serializedVersion: 4
@@ -10994,7 +11132,7 @@ Transform:
   m_GameObject: {fileID: 1951299057}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.947794, y: -6.9348536, z: 0.04971984}
+  m_LocalPosition: {x: -10.310001, y: -15.74, z: 0.04971984}
   m_LocalScale: {x: 0.87343, y: 0.87343, z: 0.87343}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11058,6 +11196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1960830967
 Rigidbody2D:
   serializedVersion: 4
@@ -11181,7 +11322,7 @@ Transform:
   m_GameObject: {fileID: 1960830963}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.317793, y: 26.245146, z: 0.04971984}
+  m_LocalPosition: {x: -6.6800003, y: 17.439999, z: 0.04971984}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11263,6 +11404,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1986043191
 Rigidbody2D:
   serializedVersion: 4
@@ -11386,7 +11530,7 @@ Transform:
   m_GameObject: {fileID: 1986043188}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.8522067, y: -0.34485435, z: 0.04971984}
+  m_LocalPosition: {x: 10.49, y: -9.150001, z: 0.04971984}
   m_LocalScale: {x: 1.8144, y: 1.8144, z: 3.6288}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11437,6 +11581,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &1995843509
 Rigidbody2D:
   serializedVersion: 4
@@ -11560,7 +11707,7 @@ Transform:
   m_GameObject: {fileID: 1995843506}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.037793, y: 20.815145, z: 0.04971984}
+  m_LocalPosition: {x: -3.4000006, y: 12.009999, z: 0.04971984}
   m_LocalScale: {x: 2.49516, y: 2.49516, z: 2.49516}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11646,6 +11793,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &2016920689
 Rigidbody2D:
   serializedVersion: 4
@@ -11769,7 +11919,7 @@ Transform:
   m_GameObject: {fileID: 2016920685}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.317793, y: 19.475147, z: 0.04971984}
+  m_LocalPosition: {x: -14.68, y: 10.670001, z: 0.04971984}
   m_LocalScale: {x: 2.4716072, y: 2.4716072, z: 2.4716072}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11970,7 +12120,7 @@ Transform:
   m_GameObject: {fileID: 2061847037}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0677934, y: 1.0951462, z: 0.04971984}
+  m_LocalPosition: {x: 1.5699992, y: -7.71, z: 0.04971984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12033,6 +12183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wobbleParameter: {x: -0.002, y: 0.002}
+  randomMovementParameterX: {x: -0.05, y: 0.05}
+  randomMovmentParameterY: {x: -0.05, y: 0.05}
 --- !u!50 &2096163028
 Rigidbody2D:
   serializedVersion: 4
@@ -12156,7 +12309,7 @@ Transform:
   m_GameObject: {fileID: 2096163025}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.617794, y: 14.405146, z: 0.04971984}
+  m_LocalPosition: {x: -8.980001, y: 5.5999994, z: 0.04971984}
   m_LocalScale: {x: 1.5, y: 1.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12211,11 +12364,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4675834888588143529, guid: 4e7a35af15a274a4fb80af080336878c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.8477936
+      value: -1.210001
       objectReference: {fileID: 0}
     - target: {fileID: 4675834888588143529, guid: 4e7a35af15a274a4fb80af080336878c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8148537
+      value: -10.62
       objectReference: {fileID: 0}
     - target: {fileID: 4675834888588143529, guid: 4e7a35af15a274a4fb80af080336878c, type: 3}
       propertyPath: m_LocalPosition.z
